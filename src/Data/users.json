@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "username":"dhrumil20",
+        "name":"Dhrumil Choksi",
+        "role":"admin",
+        "email":"abc@gmail.com",
+        "password":"abc123"
+    },
+    {
+        "id":2,
+        "username":"aneri20",
+        "name":"Aneri Choksi",
+        "role":"user",
+        "email":"aneri@gmail.com",
+        "password":"abc123"
+    },
+    {
+        "id":3,
+        "username":"dhrumil22",
+        "name":"Dhrumil22 Choksi",
+        "role":"user",
+        "email":"dhrumil22@gmail.com",
+        "password":"abc123"
+    },
+    {
+        "id":4,
+        "username":"chetan20",
+        "name":"Chetan Choksi",
+        "role":"admin",
+        "email":"chetan@gmail.com",
+        "password":"abc123"
+    },
+    {
+        "id":5,
+        "username":"admin",
+        "name":"admin Choksi",
+        "role":"admin",
+        "email":"admin@gmail.com",
+        "password":"abc123"
+    }
+]
