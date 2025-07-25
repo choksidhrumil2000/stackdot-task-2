@@ -25,7 +25,7 @@ export default function Login(){
             if(user.role === 'admin'){
                 navigate('/admin');
             }else{
-                navigate('/user');
+                navigate('/user',{state:{user}});
             }
         }else{
             setErrMsg('User NOt Found!! may be Credentials are Invalid!!');

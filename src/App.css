@@ -5,3 +5,6 @@
 .d_flex{
   display: flex;
 }
+p{
+  margin:0
+}

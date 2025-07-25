@@ -33,7 +33,10 @@ export default function AdminDashBoard() {
   };
 
   const handleAddOrUpdate = ()=>{
-    const last_id = usersData[usersData.length-1].id;
+    let last_id = 0;
+    if(usersData.length !== 0)
+        last_id = usersData[usersData.length-1].id;
+    else last_id = 0;
     const obj = {
         id:last_id+1,
         name:currentUser.name,
